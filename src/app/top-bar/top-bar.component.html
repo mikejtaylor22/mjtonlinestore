@@ -2,7 +2,8 @@
   <h1>Mike's Store</h1>
 </a>
 
-<a routerLink ="/cart" class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>
+<a routerLink ="/cart" class="button fancy-button"><i class="material-icons">shopping_cart</i>
+<span>{{cartService.items$ | async }}</span>Checkout</a>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
