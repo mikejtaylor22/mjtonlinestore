@@ -1,3 +1,3 @@
 # mjtonlinestore
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/mjtonlinestore)
+The front end for an Angular online store webpage
